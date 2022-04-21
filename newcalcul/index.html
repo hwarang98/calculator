@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>계산기</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">Calculator</div>
+        <input type="text" class="resultInput"id="result"></input>
+        <div class="calmain">
+            
+            <button onclick="addOutput(7)">7</button>
+            <button onclick="addOutput(8)">8</button>
+            <button onclick="addOutput(9)">9</button>
+            <button onclick="addOutput('+')">+</button><br>
+
+            <button onclick="addOutput(4)">4</button>
+            <button onclick="addOutput(5)">5</button>
+            <button onclick="addOutput(6)">6</button>
+            <button onclick="addOutput('-')">-</button><br>
+
+            <button onclick="addOutput(1)">1</button>
+            <button onclick="addOutput(2)">2</button>
+            <button onclick="addOutput(3)">3</button>
+            <button onclick="addOutput('*')">*</button><br>
+
+            <button onclick="init()">C</button>
+            <button onclick="addOutput(0)">0</button>
+            <button onclick="addOutput('.')">.</button>
+            <button onclick="addOutput('/')">/</button>
+            <button class="same" onclick="equal('=')">=</button>
+    </div>
+</div>
+<script src="./main.js"></script>
+</body>
+</html>
